@@ -1,0 +1,17 @@
+{
+  "name": "los-reyes-del-truco",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "livekit-server-sdk": "^2.9.6"
+  }
+}
